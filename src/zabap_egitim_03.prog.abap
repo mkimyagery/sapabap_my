@@ -13,7 +13,6 @@ TRY .
     DATA: o_salv TYPE REF TO cl_salv_table.
 
 
-
     CALL METHOD cl_salv_table=>factory
       IMPORTING
         r_salv_table = o_salv
